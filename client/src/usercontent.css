@@ -1,0 +1,49 @@
+.modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbe8ce;
+  transition: all 0.3s ease-in-out;
+}
+
+.modalheaders {
+  background-color: #212529;
+  display: flex;
+  justify-content: flex-end;
+}
+.modalcontent {
+  border: 1px solid black;
+  gap: 8%;
+
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.modalarea {
+  padding: 5%;
+}
+
+.modalform {
+  gap: 0%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  width: 25vw;
+  margin: 0;
+}
+.submitbtn {
+  width: 5rem;
+  height: 2rem;
+  background: green;
+  color: white;
+  cursor: pointer;
+}
